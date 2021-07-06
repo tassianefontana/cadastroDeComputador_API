@@ -7,7 +7,7 @@ const computadorController = new ComputadorController()
 
 router.post("/computador/cadastrar", computadorController.cadastrar)
 router.get("/computador/listar", computadorController.listar)
-router.delete("/computador/deletar/:isbn", computadorController.remover)
+router.delete("/computador/remover/:isbn", computadorController.remover)
 
  
 export{router}
